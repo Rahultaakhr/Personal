@@ -14,7 +14,7 @@ main_Button.addEventListener('click',async function clickE(){
 if (!con) {
     AfterClick.innerHTML=`Thik hai jesi apki marzi 😔😔`
 } else {
-    AfterClick.innerHTML=`🙃🙃🥳🥳` 
+    AfterClick.innerHTML=`Thanks 🙃🙃🥳🥳` 
 }
 setTimeout(() => {
     window.location.reload()
