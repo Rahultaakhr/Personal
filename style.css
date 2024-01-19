@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/009/740/424/original/red-love-heart-element-particle-flowing-on-pink-background-romantic-cg-abstract-glitter-for-valentine-and-wedding-free-video.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: "Lemon", serif;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_heading{
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 3px solid red;
+    margin-bottom: 100px;
+}
+.main-content{
+    display: flex;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.main-content input{
+    width: 80%;
+    height: 30px;
+ transition: .5s linear;
+  border: none;
+    color:rgb(240, 111, 132) ;
+    font-family: "Lemon", serif;
+    padding-inline: 8px;
+}
+.main-content input:hover{
+    border-radius: 10px;
+
+}
+.main-content h3{
+    font-weight: 300;
+    font-size: 17px;
+}
+.main-content button{
+    height: 30px;
+    padding: 3px 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: "Lemon", serif;
+    padding-inline: 8px;
+    color: brown;
+}
+.main-content button:active{
+    background-color: brown;
+    color: white;
+
+}
+.main-content button:active i{
+    color: pink;
+}
+.main-content button i{
+    color: red;
+}
+.afterClick{
+    margin-top: -140px;
+    font-size: 18px;
+}
