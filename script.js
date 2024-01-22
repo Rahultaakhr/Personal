@@ -46,7 +46,7 @@ setTimeout(() => {
 
     window.location.reload()
 
-}, 10000);
+}, 12000);
 
    },4000)
 
