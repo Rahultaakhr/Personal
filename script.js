@@ -14,7 +14,7 @@ main_Button.addEventListener('click',async function clickE(){
 if (!con) {
     AfterClick.innerHTML=`Thik hai jesi apki marzi 😔😔`
 } else {
-    AfterClick.innerHTML=`Thanks 🙃🙃🥳🥳` 
+    AfterClick.innerHTML=`Toh kya tum meri gf ban gayi tumne ok jo kiya hai 🥰🥰` 
 }
 setTimeout(() => {
     window.location.reload()
